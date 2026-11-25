@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAMEZONE Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>GAME<span style="color:red">ZONE</span></h1>
+    <p>MEMBER DASHBOARD</p>
+</header>
+
+<main class="dashboard">
+    <h2>WELCOME TO GAMEZONE</h2>
+    <p>Your gaming world starts here.</p>
+
+    <div class="dashboard-grid">
+        <a href="#">MY PROFILE</a>
+        <a href="#">GAMING GROUPS</a>
+        <a href="#">COMMUNITY POSTS</a>
+        <a href="#">LIVE CHAT</a>
+        <a href="#">LEADERBOARD</a>
+        <a href="#">TOURNAMENTS</a>
+    </div>
+
+    <button onclick="logout()">LOG OUT</button>
+</main>
+
+<script>
+function logout() {
+    window.location.href = "login.html";
+}
+</script>
+
+</body>
+</html>
