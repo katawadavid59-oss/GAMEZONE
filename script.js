@@ -62,7 +62,7 @@ if (loginForm) {
             await signInWithEmailAndPassword(auth, email, password);
 
             alert("LOGIN SUCCESSFUL! WELCOME TO GAMEZONE!");
-            window.location.href = "index.html";
+            window.location.href = "dashboard.html";
 
         } catch (error) {
             alert(error.message);
